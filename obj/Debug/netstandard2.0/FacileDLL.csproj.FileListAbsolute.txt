@@ -1,0 +1,8 @@
+C:\Users\jmaty\source\repos\FacileDLL\bin\Debug\netstandard2.0\FacileDLL.deps.json
+C:\Users\jmaty\source\repos\FacileDLL\bin\Debug\netstandard2.0\FacileDLL.dll
+C:\Users\jmaty\source\repos\FacileDLL\obj\Debug\netstandard2.0\FacileDLL.AssemblyInfoInputs.cache
+C:\Users\jmaty\source\repos\FacileDLL\obj\Debug\netstandard2.0\FacileDLL.AssemblyInfo.cs
+C:\Users\jmaty\source\repos\FacileDLL\bin\Debug\netstandard2.0\FacileDLL.pdb
+C:\Users\jmaty\source\repos\FacileDLL\obj\Debug\netstandard2.0\FacileDLL.csproj.CoreCompileInputs.cache
+C:\Users\jmaty\source\repos\FacileDLL\obj\Debug\netstandard2.0\FacileDLL.dll
+C:\Users\jmaty\source\repos\FacileDLL\obj\Debug\netstandard2.0\FacileDLL.pdb

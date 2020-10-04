@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FacileDLL</name>
+    </assembly>
+    <members>
+        <member name="T:FacileDLL.Connect">
+            <summary>
+            Устанавливает соединение с сервером по протоколу ws
+            </summary>
+        </member>
+        <member name="M:FacileDLL.Connect.#ctor(System.String)">
+            <summary>
+            Создаёт экземпляр класса
+            </summary>
+            <param name="ip">IP адрес сервера</param>
+        </member>
+        <member name="T:FacileDLL.Crypto">
+            <summary>
+            Хэширует строку
+            </summary>
+        </member>
+        <member name="M:FacileDLL.Crypto.HashMD5(System.String)">
+            <summary>
+            Хэширует по алгоритму MD5
+            </summary>
+            <param name="data">Строка, которую необходимо хэшировать</param>
+            <returns>Хэшированная строка</returns>
+        </member>
+        <member name="M:FacileDLL.Crypto.HashSHA256(System.String)">
+            <summary>
+            Хэширует по алгоритму SHA256
+            </summary>
+            <param name="data">Строка, которую необходимо хэшировать</param>
+            <returns>Хэшированная строка</returns>
+        </member>
+        <member name="M:FacileDLL.Prototypes.IConnect.Connection(System.String)">
+            <summary>
+            Установка соединения. Этот метод используется перед каждой отправкой сообщения на сервер
+            </summary>
+            <param name="Port">Порт по которому надо установить подключение</param>
+        </member>
+        <member name="M:FacileDLL.Prototypes.IConnect.SendAsync(System.String)">
+            <summary>
+            Отправляет сообщение на сервер
+            </summary>
+            <param name="message">Текстовое сообщение</param>
+            <returns>Ответ от сервера</returns>
+        </member>
+        <member name="M:FacileDLL.Prototypes.IConnect.SendAsync(System.Byte[])">
+            <summary>
+            Отправляет сообщение на сервер
+            </summary>
+            <param name="message">Бинарное сообщение</param>
+            <returns>Ответ от сервера</returns>
+        </member>
+        <member name="M:FacileDLL.Prototypes.IConnect.GetBytes(System.String)">
+            <summary>
+            Отправляет сообщение на сервер с последующим получением файла в виде байтов
+            </summary>
+            <param name="message">Текстовое сообщение</param>
+            <returns>Файл</returns>
+        </member>
+        <member name="M:FacileDLL.Prototypes.IConnect.GetBytes(System.Byte[])">
+            <summary>
+            Отправляет сообщение на сервер с последующим получением файла в виде байтов
+            </summary>
+            <param name="message">Бинарное сообщение</param>
+            <returns>Файл</returns>
+        </member>
+        <member name="M:FacileDLL.Prototypes.IConnect.WaitAsync">
+            <summary>
+            Ожидание ответа
+            </summary>
+            <returns>Ответ</returns>
+        </member>
+        <member name="T:FacileDLL.WorkBytes">
+            <summary>
+            Объединение байтовых данных в один массив
+            </summary>
+        </member>
+        <member name="M:FacileDLL.WorkBytes.Concat(System.Byte[],System.Byte[])">
+            <summary>
+            Объединение байтовых данных в один массив
+            </summary>
+            <param name="bson">Первый массив байтов</param>
+            <param name="data">Второй массив байтов</param>
+            <returns>Массив объединенных входных данных</returns>
+        </member>
+    </members>
+</doc>
