@@ -11,15 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Sasha_Shrek")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SsSha256")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2020, Sasha_Shrek")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2020, SsSha256")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Библиотека в память о Facile Authomation Systems")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.4.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.4")]
 [assembly: System.Reflection.AssemblyProductAttribute("FacileDLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FacileDLL")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.4.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

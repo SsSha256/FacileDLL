@@ -38,7 +38,8 @@
             <summary>
             Установка соединения. Этот метод используется перед каждой отправкой сообщения на сервер
             </summary>
-            <param name="Port">Порт по которому надо установить подключение</param>
+            <param name="Port">Порт, по которому надо установить соединение</param>
+            <returns>IConnect</returns>
         </member>
         <member name="M:FacileDLL.Prototypes.IConnect.SendAsync(System.String)">
             <summary>

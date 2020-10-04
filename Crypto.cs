@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FacileDLL.Prototypes;
+using System;
 using System.Security.Cryptography;
 using System.Text;
 

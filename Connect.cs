@@ -25,9 +25,10 @@ namespace FacileDLL
             Uri = ip;
         }
 
-        void IConnect.Connection(string Port)
+        IConnect IConnect.Connection(string Port)
         {
             ws = new WebSocket("ws://" + Uri + ":" + Port);
+            return this;
         }
 
         private void OnMessage(object s, MessageEventArgs e)

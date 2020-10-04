@@ -7,8 +7,9 @@ namespace FacileDLL.Prototypes
         /// <summary>
         /// Установка соединения. Этот метод используется перед каждой отправкой сообщения на сервер
         /// </summary>
-        /// <param name="Port">Порт по которому надо установить подключение</param>
-        void Connection(string Port);
+        /// <param name="Port">Порт, по которому надо установить соединение</param>
+        /// <returns>IConnect</returns>
+        IConnect Connection(string Port);
 
         /// <summary>
         /// Отправляет сообщение на сервер

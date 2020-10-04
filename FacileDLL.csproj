@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Sasha_Shrek</Authors>
+    <Authors>SsSha256</Authors>
     <Description>Библиотека в память о Facile Authomation Systems</Description>
-    <Copyright>Copyright © 2020, Sasha_Shrek</Copyright>
+    <Copyright>Copyright © 2020, SsSha256</Copyright>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>facile.pfx</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
